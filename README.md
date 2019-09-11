@@ -1,4 +1,4 @@
->原文链接：[https://mp.weixin.qq.com/s/EYyTBtM9qCdmB9nlDEF-3w](https://mp.weixin.qq.com/s/EYyTBtM9qCdmB9nlDEF-3w)
+
 
 相信做前端的都做过页面锚点定位的功能，通过`<a href="#head">` 去设置页面内锚点定位跳转。  
 本篇文章就使用`tablayout`、`scrollview`来实现android锚点定位的功能。  
@@ -249,17 +249,3 @@ container.getViewTreeObserver().addOnGlobalLayoutListener(listener);
 
 ![](https://user-gold-cdn.xitu.io/2018/7/21/164bafaa29976d72?w=236&h=387&f=gif&s=712017)    
 
-写到这里，tablayout + scrollview的锚点定位成型了，在实际项目中，我们还可以使用tablayout + recyclerview 来完成同样的效果，后续的话会带来这样的文章。  
-
-这段时间自己在做一个小程序，包括数据爬取 + 后台 + 小程序的，可能要过段时间才能出来，主要是数据爬虫那边比较麻烦的...期待下！
-
-详细代码见  
-github地址：[https://github.com/taixiang/tabScroll](https://github.com/taixiang/tabScroll)  
-
-欢迎关注我的博客：[https://blog.manjiexiang.cn/](https://blog.manjiexiang.cn/)  
-更多精彩欢迎关注微信号：春风十里不如认识你  
-![image.png](https://upload-images.jianshu.io/upload_images/7569533-cfeb1f55473a2143.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)  
-
-有个「佛系码农圈」，欢迎大家加入畅聊，开心就好！  
-![](https://user-gold-cdn.xitu.io/2018/7/22/164bfe5d54f268a2?w=188&h=250&f=jpeg&s=41186)     
-过期了，可加我微信 tx467220125 拉你入群。
